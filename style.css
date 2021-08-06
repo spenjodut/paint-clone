@@ -146,7 +146,6 @@ body {
 
 /* Canvas */
 canvas#canvas {
-  background-color: rgb(177, 177, 177);
   position: absolute;
   top: 50px;
   cursor: crosshair;
@@ -159,7 +158,7 @@ canvas#canvas {
 }
 
 /* Media Query: Mobile Devices */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .mobile-message {
     position: absolute;
     height: 100vh;
